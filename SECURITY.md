@@ -5,10 +5,10 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| Chrome  | :white_check_mark: |
+| Chrome  | :green_check_mark: |
 | Firefox | :x:                |
-| Edge    | :white_check_mark: |
-| IE      | :white_check_mark: |
+| Edge    | :green_check_mark: |
+| IE      | :green_check_mark: |
 
 ## Reporting a Vulnerability
 
