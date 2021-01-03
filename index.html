@@ -1,50 +1,62 @@
 <html>
 <head>
-	<script>
-var host = "raidmc.xyz";
-if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-</script>
 <link rel="icon" 
       type="image/png" 
       href="https://raw.githubusercontent.com/CheesyBC/cheesybc.github.io/master/favicon.jpg">
 <title>RaidMC</title>
      <style>
         body {
-		
-		/*background-color: black;*/
-		   
            text-align: center;
            color: white;
            font-family: Arial, Helvetica, sans-serif;
        }
 	   #grad {
 	   height: 100%;
-       background: linear-gradient(to top right, #000066 0%, #ff99cc 100%)
+	   background: linear-gradient(to top right, #000066 0%, #ff99cc 100%)
 	   }
 	   .bigText{
 	   font-size: 100px;
 	   font-weight:bold;
+	   position: fixed;
+	   top: 50%;
+	   left: 50%;
+	   transform: translate(-50%, -60%);
 	   }
 	   .mediumText{
 	   font-size: 50px;
 	   font-weight:bold;
+	   position: fixed;
+	   top: 50%;
+	   left: 50%;
+	   transform: translate(-50%, 50%);
 	   }
 	   .buttonText{
-	   font-size: 50px;
+	   font-size: 40px;
 	   font-weight:bold;
-	   color:grey;
+	   color: #ffffff;
+	   position: fixed;
+	   top: 50%;
+	   left: 50%;
+	   transform: translate(-50%, 50%);
 	   }
+	   .buttonFix{
+	   border:none;
+	   background-color:transparent;
+	   outline:none;
+	   }
+	   .bottom {
+    position: fixed;
+    bottom: 10;
+	
+}
 }
     </style>
 </head>
 <body>
 <div id="grad">
-	<div class="bigText">RaidMC Hosting Solutions</div>
-	<div class="mediumText">Play At: Raidmc.xyz</div>
-	<div class="mediumText">1.16.3</div>
-	  <button onclick="window.location.href = 'https://raidmc.xyz/discord';"><div class="buttonText">Discord</div></button>
-	<button onclick="window.location.href = 'http://raidmc.xyz/contact';"><div class="buttonText">Contact</div></button>
+	<div class="bigText">RaidMC</div>
+	<div class="mediumText">I will let this website expire on July 29</div>
+	<div class="bottom">© CheesyBC 2021</div>
 </div>
 </body>
 </html>
